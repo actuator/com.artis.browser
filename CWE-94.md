@@ -46,4 +46,4 @@ Malicious apps can target `IntentReceiverActivity` with harmful URLs using the a
 3. **Limit API Compatibility**: Restrict the app's compatibility to newer Android versions with more secure settings, or add security measures for older versions.
 4. **Review Custom Scheme Usage**: Manage and validate the `asps` scheme carefully.
 ```
-
+TLDR: Set exported = False for component: com.artis.browser.IntentReceiverActivity
